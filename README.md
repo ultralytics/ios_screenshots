@@ -9,6 +9,9 @@ http://www.ultralytics.com.
 
 The https://github.com/ultralytics/ios_screenshots repo contains code for automatic resizing of screenshot images into the various formats required by the iOS app store.
 
+<img src="https://storage.googleapis.com/ultralytics/UltralyticsLogoName1000×676.png" width="200">  
+![isky](https://user-images.githubusercontent.com/26833433/50044338-5eef4b80-0082-11e9-9b2f-e989d7fa5c1c.jpg)
+
 # Requirements
 
 Python 3.7 or later with the following `pip3 install -U -r requirements.txt` packages:
