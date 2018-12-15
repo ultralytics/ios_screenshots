@@ -7,7 +7,7 @@ http://www.ultralytics.com.
 
 # Description
 
-The https://github.com/ultralytics/ios_screenshots repo contains code for automatic resizing of screenshot images into the various formats required by the iOS app store.
+The https://github.com/ultralytics/ios_screenshots repo contains code for automatic resizing of screenshot images into the various formats required by the iOS app store, such as the example app below, iSky by Ultralytics LLC.
 
 <img src="https://user-images.githubusercontent.com/26833433/50044365-9b22ac00-0082-11e9-862f-e77aee7aa7b0.png" width="180"> 
 
