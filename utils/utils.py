@@ -20,7 +20,7 @@ def resize_image(img, height=416, width=416, mode='Fill', color=(255, 255, 255))
     left, right = dw // 2, dw - (dw // 2)
     img = cv2.resize(img, (new_shape[1], new_shape[0]), interpolation=cv2.INTER_AREA)
 
-    if mode is 'Fill':
-        return img[abs(top):height - abs(bottom), abs(left):width + abs(left)]
-    else:  # 'Fit'
+    if (dw > 0) or (dh > 0):  # add border
         return cv2.copyMakeBorder(img, top, bottom, left, right, cv2.BORDER_CONSTANT, value=color)
+    else:  # crop to [height, width]
+        return img[abs(top):img.shape[0] - abs(bottom), abs(left):img.shape[1] + abs(left)]
