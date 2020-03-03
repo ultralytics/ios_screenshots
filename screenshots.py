@@ -4,7 +4,7 @@ import os
 from utils.utils import *
 
 # directory of images to resize
-dir = '/Users/glennjocher/Downloads/app/iSky/screenshots'
+dir = '/Users/glennjocher/Downloads/app'
 
 # Formats: iPhone 8, iPhone XS, iPad Pro 12.9
 formats = ['5_5', '5_8', '12_9', '6_5']  # (inches)
