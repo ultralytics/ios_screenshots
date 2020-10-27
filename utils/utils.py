@@ -11,7 +11,7 @@ def resize_image(img, height=416, width=416, mode='Fill', color=(255, 255, 255))
     if mode is 'Fill':
         ratio = max(ratio_h, ratio_w)
     else:  # 'Fit'
-        ratio =  min(ratio_h, ratio_w)
+        ratio = min(ratio_h, ratio_w)
 
     new_shape = [round(shape[0] * ratio), round(shape[1] * ratio)]
     dw = width - new_shape[1]  # width padding

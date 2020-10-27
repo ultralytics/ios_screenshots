@@ -27,7 +27,7 @@ def main():
 
             new_name = dir + new_dir + '/' + format + '_' + image.split('/')[-1]
 
-            cv2.imwrite(new_name.replace('.PNG','.jpg').replace('.png','.jpg'), img_resized)
+            cv2.imwrite(new_name.replace('.PNG', '.jpg').replace('.png', '.jpg'), img_resized)
 
 
 if __name__ == '__main__':
