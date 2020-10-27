@@ -8,7 +8,7 @@ def resize_image(img, height=416, width=416, mode='Fill', color=(255, 255, 255))
     shape = img.shape[:2]  # shape = [height, width]
     ratio_h, ratio_w = float(height) / shape[0], float(width) / shape[1]
 
-    if mode is 'Fill':
+    if mode == 'Fill':
         ratio = max(ratio_h, ratio_w)
     else:  # 'Fit'
         ratio = min(ratio_h, ratio_w)
