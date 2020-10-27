@@ -31,7 +31,7 @@ def main():
             new_name = dir + new_dir + '/' + format + '_' + image.split('/')[-1]
 
             # cv2.imwrite(new_name.replace('.PNG', '.jpg').replace('.png', '.jpg'), img_resized)  # cv2 save
-            Image.fromarray(img_resized).save(new_name.replace(Path(new_name).suffix, '.jpg'))  # PIL save
+            Image.fromarray(img_resized[..., ::-1]).save(new_name.replace(Path(new_name).suffix, '.jpg'))  # PIL save
 
 
 if __name__ == '__main__':
