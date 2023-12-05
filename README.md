@@ -16,7 +16,7 @@ The [Ultralytics ios_screenshots repository](https://github.com/ultralytics/ios_
 </p>
 
 Below is an example of a beautifully resized image that's ready for the App Store:  
-<img src="https://user-images.githubusercontent.com/26833433/50044338-5eef4b80-0082-11e9-9b2f-e989d7fa5c1c.jpg" width="600">  
+<img src="https://user-images.githubusercontent.com/26833433/50044338-5eef4b80-0082-11e9-9b2f-e989d7fa5c1c.jpg" width="100%">  
 
 # 🛠️ Requirements
 
