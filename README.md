@@ -5,6 +5,8 @@
 
 Welcome to the software repository developed by Ultralytics. This collection of software tools is open source and 🔄 freely redistributable under the AGPL-3.0 license. We encourage the use and adaptation of our tools and welcome contributions to our projects. For more details on the exciting work we do at Ultralytics, please pay us a visit at [our website](http://www.ultralytics.com).
 
+[![Ultralytics Actions](https://github.com/ultralytics/ios_screenshots/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/ios_screenshots/actions/workflows/format.yml)
+
 # 📝 Description
 
 The [Ultralytics ios_screenshots repository](https://github.com/ultralytics/ios_screenshots) is a powerful automated tool designed to make the lives of iOS developers easier. By automatically resizing screenshot images to fit all the format requirements of the iOS App Store, this tool saves time and ensures consistency. For a practical demonstration, take a look at the iSky app created by Ultralytics, as seen below.
