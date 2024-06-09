@@ -17,10 +17,10 @@ size_y = [2208, 2436, 2732, 2688]
 
 def main():
     new_dir = "screenshots"
-    images = glob.glob(dir + "/*.*")
+    images = glob.glob(f"{dir}/*.*")
 
-    os.system("rm -rf " + dir + new_dir)
-    os.system("mkdir " + dir + new_dir)
+    os.system(f"rm -rf {dir}{new_dir}")
+    os.system(f"mkdir {dir}{new_dir}")
     for image in images:
         img = cv2.imread(image)
         print(image)

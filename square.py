@@ -14,10 +14,10 @@ size_y = [512]
 
 def main():
     new_dir = "square"
-    images = glob.glob(dir + "/*.*")
+    images = glob.glob(f"{dir}/*.*")
 
-    os.system("rm -rf " + dir + new_dir)
-    os.system("mkdir " + dir + new_dir)
+    os.system(f"rm -rf {dir}{new_dir}")
+    os.system(f"mkdir {dir}{new_dir}")
     for image in images:
         img = cv2.imread(image)
         print(image)
