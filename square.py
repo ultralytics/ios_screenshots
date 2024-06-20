@@ -13,6 +13,7 @@ size_y = [512]
 
 
 def main():
+    """Resize and save images from a directory into a new sub-directory using specified format and dimensions."""
     new_dir = "square"
     images = glob.glob(f"{dir}/*.*")
 

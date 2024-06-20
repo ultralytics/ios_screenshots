@@ -2,7 +2,7 @@ import cv2
 
 
 def resize_image(img, height=416, width=416, mode="Fill", color=(255, 255, 255)):
-    # mode Fill resizes + clips a rectangular image to a square
+    """Resize an image to specified height and width with optional padding or cropping based on mode."""
     # mode Fit resizes a rectangular image to a padded square
 
     shape = img.shape[:2]  # shape = [height, width]
