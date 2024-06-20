@@ -16,6 +16,7 @@ size_y = [2208, 2436, 2732, 2688]
 
 
 def main():
+    """Resize images in a specified directory to predefined formats and save them to a new directory."""
     new_dir = "screenshots"
     images = glob.glob(f"{dir}/*.*")
 
