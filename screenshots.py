@@ -1,9 +1,10 @@
+# Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 import glob
 import os
 from pathlib import Path
 
 from PIL import Image
-
 from utils.utils import *
 
 # directory of images to resize
