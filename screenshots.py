@@ -5,6 +5,7 @@ import os
 from pathlib import Path
 
 from PIL import Image
+
 from utils.utils import *
 
 # directory of images to resize
