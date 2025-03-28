@@ -2,7 +2,7 @@
 
 # 📘 Introduction
 
-Welcome to the `ios_screenshots` software repository developed by Ultralytics! This tool is open-source and 🔄 freely redistributable under the [AGPL-3.0 license](https://opensource.org/license/agpl-3.0). We encourage the use and adaptation of our tools and welcome contributions to our projects. For more details on the exciting work we do at Ultralytics, including advancements in [computer vision](https://www.ultralytics.com/glossary/computer-vision-cv) and AI, please visit us at [https://www.ultralytics.com](https://www.ultralytics.com/).
+Welcome to the `ios_screenshots` software repository developed by Ultralytics! This tool is open-source and 🔄 freely redistributable under the [AGPL-3.0 license](https://opensource.org/license/). We encourage the use and adaptation of our tools and welcome contributions to our projects. For more details on the exciting work we do at Ultralytics, including advancements in [computer vision](https://www.ultralytics.com/glossary/computer-vision-cv) and AI, please visit us at [https://www.ultralytics.com](https://www.ultralytics.com/).
 
 [![Ultralytics Actions](https://github.com/ultralytics/ios_screenshots/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/ios_screenshots/actions/workflows/format.yml)
 [![Ultralytics Discord](https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue)](https://discord.com/invite/ultralytics)
