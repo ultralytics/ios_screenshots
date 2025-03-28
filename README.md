@@ -1,55 +1,57 @@
-<br>
-<a href="https://www.ultralytics.com/" target="_blank"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
+<a href="https://www.ultralytics.com/"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
 
 # 📘 Introduction
 
-Welcome to the software repository developed by Ultralytics. This collection of software tools is open source and 🔄 freely redistributable under the AGPL-3.0 license. We encourage the use and adaptation of our tools and welcome contributions to our projects. For more details on the exciting work we do at Ultralytics, please pay us a visit at [our website](http://www.ultralytics.com).
+Welcome to the `ios_screenshots` software repository developed by Ultralytics! This tool is open-source and 🔄 freely redistributable under the [AGPL-3.0 license](https://opensource.org/license/agpl-3.0). We encourage the use and adaptation of our tools and welcome contributions to our projects. For more details on the exciting work we do at Ultralytics, including advancements in [computer vision](https://www.ultralytics.com/glossary/computer-vision-cv) and AI, please visit us at [https://www.ultralytics.com](https://www.ultralytics.com/).
 
-[![Ultralytics Actions](https://github.com/ultralytics/ios_screenshots/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/ios_screenshots/actions/workflows/format.yml) <a href="https://discord.com/invite/ultralytics"><img alt="Discord" src="https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue"></a> <a href="https://community.ultralytics.com/"><img alt="Ultralytics Forums" src="https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue"></a> <a href="https://reddit.com/r/ultralytics"><img alt="Ultralytics Reddit" src="https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue"></a>
+[![Ultralytics Actions](https://github.com/ultralytics/ios_screenshots/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/ios_screenshots/actions/workflows/format.yml)
+[![Ultralytics Discord](https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue)](https://discord.com/invite/ultralytics)
+[![Ultralytics Forums](https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue)](https://community.ultralytics.com/)
+[![Ultralytics Reddit](https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue)](https://reddit.com/r/ultralytics)
 
 # 📝 Description
 
-The [Ultralytics ios_screenshots repository](https://github.com/ultralytics/ios_screenshots) is a powerful automated tool designed to make the lives of iOS developers easier. By automatically resizing screenshot images to fit all the format requirements of the iOS App Store, this tool saves time and ensures consistency. For a practical demonstration, take a look at the iSky app created by Ultralytics, as seen below.
+The [Ultralytics ios_screenshots repository](https://github.com/ultralytics/ios_screenshots) is a powerful automated tool designed to simplify the workflow for [iOS](https://docs.ultralytics.com/hub/app/ios/) developers. By automatically resizing screenshot images to fit all the format requirements specified by the [Apple App Store](https://developer.apple.com/design/human-interface-guidelines/app-icons#App-Store), this tool saves valuable time and ensures visual consistency across your app listings. For a practical demonstration, take a look at the iSky app created by Ultralytics, as seen below.
 
 <p align="center">
   <a href="https://itunes.apple.com/app/id1445737240">
-    <img src="https://user-images.githubusercontent.com/26833433/50044365-9b22ac00-0082-11e9-862f-e77aee7aa7b0.png" width="180">
+    <img src="https://user-images.githubusercontent.com/26833433/50044365-9b22ac00-0082-11e9-862f-e77aee7aa7b0.png" width="180" alt="iSky App Icon">
   </a>
 </p>
 
-Below is an example of a beautifully resized image that's ready for the App Store:\
-<img src="https://user-images.githubusercontent.com/26833433/50044338-5eef4b80-0082-11e9-9b2f-e989d7fa5c1c.jpg" width="100%">
+Below is an example of a beautifully resized image that's ready for the App Store:
+<img src="https://user-images.githubusercontent.com/26833433/50044338-5eef4b80-0082-11e9-9b2f-e989d7fa5c1c.jpg" width="100%" alt="Resized App Store Screenshot Example">
 
 # 🛠️ Requirements
 
-To use the ios_screenshots tool, you'll need Python version 3.7 or later. Additionally, the following package(s) are needed, which can be installed via pip using the provided `requirements.txt` file:
+To use the `ios_screenshots` tool, you'll need [Python](https://www.python.org/) version 3.7 or later installed on your system. Additionally, the following package is required, which can be easily installed using [pip](https://pip.pypa.io/en/stable/) and the provided `requirements.txt` file:
 
 ```bash
+# Install dependencies
 pip3 install -U -r requirements.txt
 
 # Included packages:
-opencv-python  # This package is crucial for image manipulation.
+# opencv-python: Crucial for image manipulation tasks.
 ```
+
+You can find more information about the [opencv-python](https://pypi.org/project/opencv-python/) package on PyPI. For a general guide on setting up Python environments, check out the Ultralytics [Conda Quickstart Guide](https://docs.ultralytics.com/guides/conda-quickstart/).
 
 # 🤝 Contribute
 
-We welcome contributions from the community! Whether you're fixing bugs, adding new features, or improving documentation, your input is invaluable. Take a look at our [Contributing Guide](https://docs.ultralytics.com/help/contributing/) to get started. Also, we'd love to hear about your experience with Ultralytics products. Please consider filling out our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A huge 🙏 and thank you to all of our contributors!
+We actively welcome contributions from the community! Whether you're fixing bugs, adding new features, or improving documentation, your input is invaluable. Please take a look at our [Contributing Guide](https://docs.ultralytics.com/help/contributing/) to get started. We'd also love to hear about your experience using Ultralytics software; please consider filling out our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A huge 🙏 **thank you** to all our contributors!
 
-<!-- Ultralytics contributors -->
-
-<a href="https://github.com/ultralytics/yolov5/graphs/contributors">
-<img width="100%" src="https://github.com/ultralytics/assets/raw/main/im/image-contributors.png" alt="Ultralytics open-source contributors"></a>
+[![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/ultralytics/graphs/contributors)
 
 # ©️ License
 
-Ultralytics is excited to offer two different licensing options to meet your needs:
+Ultralytics offers two licensing options to accommodate different use cases:
 
-- **AGPL-3.0 License**: Perfect for students and hobbyists, this [OSI-approved](https://opensource.org/license) open-source license encourages collaborative learning and knowledge sharing. Please refer to the [LICENSE](https://github.com/ultralytics/ultralytics/blob/main/LICENSE) file for detailed terms.
-- **Enterprise License**: Ideal for commercial use, this license allows for the integration of Ultralytics software and AI models into commercial products without the open-source requirements of AGPL-3.0. For use cases that involve commercial applications, please contact us via [Ultralytics Licensing](https://www.ultralytics.com/license).
+-   **AGPL-3.0 License**: This [OSI-approved](https://opensource.org/) open-source license is ideal for students and enthusiasts, promoting open collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/ultralytics/blob/main/LICENSE) file for full details.
+-   **Enterprise License**: Designed for commercial applications, this license permits the integration of Ultralytics software and AI models into commercial products and services without the open-source requirements of AGPL-3.0. If your project requires an Enterprise License, please contact us via [Ultralytics Licensing](https://www.ultralytics.com/license).
 
 # 📬 Contact Us
 
-For bug reports, feature requests, and contributions, head to [GitHub Issues](https://github.com/ultralytics/ios_screenshots/issues). For questions and discussions about this project and other Ultralytics endeavors, join us on [Discord](https://discord.com/invite/ultralytics)!
+If you encounter any bugs or have feature requests, please report them on [GitHub Issues](https://github.com/ultralytics/ios_screenshots/issues). For broader questions and discussions about this project or other Ultralytics initiatives, join our vibrant community on [Discord](https://discord.com/invite/ultralytics)!
 
 <br>
 <div align="center">
