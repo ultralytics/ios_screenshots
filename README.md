@@ -2,7 +2,7 @@
 
 # 📘 Introduction
 
-Welcome to the `ios_screenshots` software repository developed by Ultralytics! This tool is open-source and 🔄 freely redistributable under the [AGPL-3.0 license](https://opensource.org/license/). We encourage the use and adaptation of our tools and welcome contributions to our projects. For more details on the exciting work we do at Ultralytics, including advancements in [computer vision](https://www.ultralytics.com/glossary/computer-vision-cv) and AI, please visit us at [https://www.ultralytics.com](https://www.ultralytics.com/).
+Welcome to the `ios_screenshots` software repository developed by Ultralytics! This tool is open-source and 🔄 freely redistributable under the [AGPL-3.0 license](https://opensource.org/license/agpl-v3). We encourage the use and adaptation of our tools and welcome contributions to our projects. For more details on the exciting work we do at Ultralytics, including advancements in [computer vision](https://www.ultralytics.com/glossary/computer-vision-cv) and AI, please visit us at [https://www.ultralytics.com](https://www.ultralytics.com/).
 
 [![Ultralytics Actions](https://github.com/ultralytics/ios_screenshots/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/ios_screenshots/actions/workflows/format.yml)
 [![Ultralytics Discord](https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue)](https://discord.com/invite/ultralytics)
@@ -11,7 +11,7 @@ Welcome to the `ios_screenshots` software repository developed by Ultralytics! T
 
 # 📝 Description
 
-The [Ultralytics ios_screenshots repository](https://github.com/ultralytics/ios_screenshots) is a powerful automated tool designed to simplify the workflow for [iOS](https://docs.ultralytics.com/hub/app/ios/) developers. By automatically resizing screenshot images to fit all the format requirements specified by the [Apple App Store](https://developer.apple.com/design/human-interface-guidelines/app-icons#App-Store), this tool saves valuable time and ensures visual consistency across your app listings. For a practical demonstration, take a look at the iSky app created by Ultralytics, as seen below.
+The [Ultralytics ios_screenshots repository](https://github.com/ultralytics/ios_screenshots) is an automated tool designed to simplify the workflow for [iOS](https://docs.ultralytics.com/hub/app/ios/) developers. By resizing screenshot images to selected [Apple App Store screenshot specifications](https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications/), this tool saves time and helps maintain visual consistency across your app listings. The defaults in `screenshots.py` generate `5_5`, `5_8`, `6_5`, and `12_9` output sizes; update the `formats`, `size_x`, and `size_y` lists if your App Store Connect submission requires newer device classes. For a practical demonstration, take a look at the iSky app created by Ultralytics, as seen below.
 
 <p align="center">
   <a href="https://itunes.apple.com/app/id1445737240">
@@ -28,25 +28,26 @@ To use the `ios_screenshots` tool, you'll need [Python](https://www.python.org/)
 
 ```bash
 # Install dependencies
-pip3 install -U -r requirements.txt
+pip3 install -U -r requirements.txt pillow
 
 # Included packages:
 # opencv-python: Crucial for image manipulation tasks.
+# pillow: Used by screenshots.py to save resized JPEG outputs.
 ```
 
-You can find more information about the [opencv-python](https://pypi.org/project/opencv-python/) package on PyPI. For a general guide on setting up Python environments, check out the Ultralytics [Conda Quickstart Guide](https://docs.ultralytics.com/guides/conda-quickstart/).
+You can find more information about [opencv-python](https://pypi.org/project/opencv-python/) and [Pillow](https://pypi.org/project/pillow/) on PyPI. For a general guide on setting up Python environments, check out the Ultralytics [Conda Quickstart Guide](https://docs.ultralytics.com/guides/conda-quickstart/).
 
 # 🤝 Contribute
 
 We actively welcome contributions from the community! Whether you're fixing bugs, adding new features, or improving documentation, your input is invaluable. Please take a look at our [Contributing Guide](https://docs.ultralytics.com/help/contributing/) to get started. We'd also love to hear about your experience using Ultralytics software; please consider filling out our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A huge 🙏 **thank you** to all our contributors!
 
-[![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/ultralytics/graphs/contributors)
+[![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/ios_screenshots/graphs/contributors)
 
 # ©️ License
 
 Ultralytics offers two licensing options to accommodate different use cases:
 
-- **AGPL-3.0 License**: This [OSI-approved](https://opensource.org/) open-source license is ideal for students and enthusiasts, promoting open collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/ultralytics/blob/main/LICENSE) file for full details.
+- **AGPL-3.0 License**: This [OSI-approved](https://opensource.org/license/agpl-v3) open-source license is ideal for students and enthusiasts, promoting open collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/ios_screenshots/blob/main/LICENSE) file for full details.
 - **Enterprise License**: Designed for commercial applications, this license permits the integration of Ultralytics software and AI models into commercial products and services without the open-source requirements of AGPL-3.0. If your project requires an Enterprise License, please contact us via [Ultralytics Licensing](https://www.ultralytics.com/license).
 
 # 📬 Contact Us
