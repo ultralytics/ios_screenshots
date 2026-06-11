@@ -28,7 +28,7 @@ To use the `ios_screenshots` tool, you'll need [Python](https://www.python.org/)
 
 ```bash
 # Install dependencies
-pip3 install -U -r requirements.txt pillow
+pip3 install -U -r requirements.txt
 
 # Included packages:
 # opencv-python: Crucial for image manipulation tasks.
