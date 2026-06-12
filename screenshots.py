@@ -4,9 +4,10 @@ import glob
 import os
 from pathlib import Path
 
+import cv2
 from PIL import Image
 
-from utils.utils import *
+from utils.utils import resize_image
 
 # directory of images to resize
 dir = "/Users/glennjocher/Downloads/"
@@ -29,12 +30,16 @@ def main():
         print(image)
 
         for i, format in enumerate(formats):
-            img_resized = resize_image(img, height=size_y[i], width=size_x[i], mode="Fill")  # i.e. mode = 'Pad'
+            img_resized = resize_image(
+                img, height=size_y[i], width=size_x[i], mode="Fill"
+            )  # i.e. mode = 'Pad'
 
             new_name = dir + new_dir + "/" + format + "_" + image.split("/")[-1]
 
             # cv2.imwrite(new_name.replace('.PNG', '.jpg').replace('.png', '.jpg'), img_resized)  # cv2 save
-            Image.fromarray(img_resized[..., ::-1]).save(new_name.replace(Path(new_name).suffix, ".jpg"))  # PIL save
+            Image.fromarray(img_resized[..., ::-1]).save(
+                new_name.replace(Path(new_name).suffix, ".jpg")
+            )  # PIL save
 
 
 if __name__ == "__main__":

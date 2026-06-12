@@ -3,7 +3,9 @@
 import glob
 import os
 
-from utils.utils import *
+import cv2
+
+from utils.utils import resize_image
 
 # directory of images to resize
 dir = "/Users/glennjocher/downloads/app/styles/"
@@ -26,7 +28,9 @@ def main():
         print(image)
 
         for i, format in enumerate(formats):
-            img_resized = resize_image(img, height=size_y[i], width=size_x[i], mode="Fill")
+            img_resized = resize_image(
+                img, height=size_y[i], width=size_x[i], mode="Fill"
+            )
             cv2.imwrite(dir + new_dir + "/" + image.split("/")[-1], img_resized)
 
 
