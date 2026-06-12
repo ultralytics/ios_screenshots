@@ -28,9 +28,7 @@ def main():
         print(image)
 
         for i, format in enumerate(formats):
-            img_resized = resize_image(
-                img, height=size_y[i], width=size_x[i], mode="Fill"
-            )
+            img_resized = resize_image(img, height=size_y[i], width=size_x[i], mode="Fill")
             cv2.imwrite(dir + new_dir + "/" + image.split("/")[-1], img_resized)
 
 
