@@ -4,9 +4,10 @@ import glob
 import os
 from pathlib import Path
 
+import cv2
 from PIL import Image
 
-from utils.utils import *
+from utils.utils import resize_image
 
 # directory of images to resize
 dir = "/Users/glennjocher/Downloads/"

@@ -3,7 +3,9 @@
 import glob
 import os
 
-from utils.utils import *
+import cv2
+
+from utils.utils import resize_image
 
 # directory of images to resize
 dir = "/Users/glennjocher/downloads/app/styles/"
