@@ -14,7 +14,7 @@ Welcome to the `ios_screenshots` software repository developed by Ultralytics! T
 The [Ultralytics ios_screenshots repository](https://github.com/ultralytics/ios_screenshots) is an automated tool designed to simplify the workflow for [iOS](https://docs.ultralytics.com/hub/app/ios/) developers. By resizing screenshot images to selected [Apple App Store screenshot specifications](https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications/), this tool saves time and helps maintain visual consistency across your app listings. The defaults in `screenshots.py` generate `5_5`, `5_8`, `6_5`, and `12_9` output sizes; update the `formats`, `size_x`, and `size_y` lists if your App Store Connect submission requires newer device classes. For a practical demonstration, take a look at the iSky app created by Ultralytics, as seen below.
 
 <p align="center">
-  <a href="https://itunes.apple.com/app/id1445737240">
+  <a href="https://apps.apple.com/us/app/isky/id1445737240">
     <img src="https://user-images.githubusercontent.com/26833433/50044365-9b22ac00-0082-11e9-862f-e77aee7aa7b0.png" width="180" alt="iSky App Icon">
   </a>
 </p>

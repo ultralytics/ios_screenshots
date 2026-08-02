@@ -1,6 +1,3 @@
 # pip3 install -U -r requirements.txt
-numpy
 opencv-python
 pillow
-torch
-matplotlib
