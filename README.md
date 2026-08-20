@@ -1,17 +1,17 @@
-<a href="https://www.ultralytics.com/"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
+<a href="https://www.ultralytics.com"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
 
 # 📸 Ultralytics iOS Screenshots
 
-Welcome to the `ios_screenshots` software repository developed by Ultralytics! This tool is open-source and 🔄 freely redistributable under the [AGPL-3.0 license](https://opensource.org/license/agpl-3.0). We encourage the use and adaptation of our tools and welcome contributions to our projects. For more details on the exciting work we do at Ultralytics, including advancements in [computer vision](https://www.ultralytics.com/glossary/computer-vision-cv) and AI, please visit us at [https://www.ultralytics.com](https://www.ultralytics.com/).
+Welcome to the `ios_screenshots` software repository developed by Ultralytics! This tool is open-source and 🔄 freely redistributable under the [AGPL-3.0 license](https://opensource.org/license/agpl-3.0). We encourage the use and adaptation of our tools and welcome contributions to our projects. For more details on the exciting work we do at Ultralytics, including advancements in [computer vision](https://www.ultralytics.com/glossary/computer-vision-cv) and AI, please visit us at [https://www.ultralytics.com](https://www.ultralytics.com).
 
 [![Ultralytics Actions](https://github.com/ultralytics/ios_screenshots/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/ios_screenshots/actions/workflows/format.yml)
 [![Ultralytics Discord](https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue)](https://discord.com/invite/ultralytics)
-[![Ultralytics Forums](https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue)](https://community.ultralytics.com/)
+[![Ultralytics Forums](https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue)](https://community.ultralytics.com)
 [![Ultralytics Reddit](https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue)](https://reddit.com/r/ultralytics)
 
 ## 📝 Description
 
-The [Ultralytics ios_screenshots repository](https://github.com/ultralytics/ios_screenshots) is an automated tool designed to simplify the workflow for [iOS](https://docs.ultralytics.com/hub/app/ios/) developers. By resizing screenshot images to selected [Apple App Store screenshot specifications](https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications/), this tool saves time and helps maintain visual consistency across your app listings. The defaults in `screenshots.py` generate `5_5`, `5_8`, `6_5`, and `12_9` output sizes; update the `formats`, `size_x`, and `size_y` lists if your App Store Connect submission requires newer device classes. For a practical demonstration, take a look at the iSky app created by Ultralytics, as seen below.
+The [Ultralytics ios_screenshots repository](https://github.com/ultralytics/ios_screenshots) is an automated tool designed to simplify the workflow for [iOS](https://docs.ultralytics.com/hub/app/ios) developers. By resizing screenshot images to selected [Apple App Store screenshot specifications](https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications/), this tool saves time and helps maintain visual consistency across your app listings. The defaults in `screenshots.py` generate `5_5`, `5_8`, `6_5`, and `12_9` output sizes; update the `formats`, `size_x`, and `size_y` lists if your App Store Connect submission requires newer device classes. For a practical demonstration, take a look at the iSky app created by Ultralytics, as seen below.
 
 <p align="center">
   <a href="https://apps.apple.com/us/app/isky/id1445737240">
@@ -35,11 +35,11 @@ pip3 install -U -r requirements.txt
 # pillow: Used by screenshots.py to save resized JPEG outputs.
 ```
 
-You can find more information about [opencv-python](https://pypi.org/project/opencv-python/) and [Pillow](https://pypi.org/project/pillow/) on PyPI. For a general guide on setting up Python environments, check out the Ultralytics [Conda Quickstart Guide](https://docs.ultralytics.com/guides/conda-quickstart/).
+You can find more information about [opencv-python](https://pypi.org/project/opencv-python/) and [Pillow](https://pypi.org/project/pillow/) on PyPI. For a general guide on setting up Python environments, check out the Ultralytics [Conda Quickstart Guide](https://docs.ultralytics.com/guides/conda-quickstart).
 
 ## 💡 Contribute
 
-We actively welcome contributions from the community! Whether you're fixing bugs, adding new features, or improving documentation, your input is invaluable. Please take a look at our [Contributing Guide](https://docs.ultralytics.com/help/contributing/) to get started. We'd also love to hear about your experience using Ultralytics software; please consider filling out our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A huge 🙏 **thank you** to all our contributors!
+We actively welcome contributions from the community! Whether you're fixing bugs, adding new features, or improving documentation, your input is invaluable. Please take a look at our [Contributing Guide](https://docs.ultralytics.com/help/contributing) to get started. We'd also love to hear about your experience using Ultralytics software; please consider filling out our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A huge 🙏 **thank you** to all our contributors!
 
 [![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/ios_screenshots/graphs/contributors)
 
